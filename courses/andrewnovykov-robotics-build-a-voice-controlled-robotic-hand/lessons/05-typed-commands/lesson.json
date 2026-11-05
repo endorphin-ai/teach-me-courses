@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "05-typed-commands",
+  "title": "Typed Commands: A Hand That Obeys Words",
+  "summary": "Read a typed line, look it up in a command table, and move the fingers smoothly toward their targets.",
+  "minutes": 60,
+  "difficulty": "beginner",
+  "prerequisites": ["02-first-code", "04-the-hand"],
+  "concepts": [
+    { "id": "c14", "name": "Reading and cleaning a text line", "complexity": 2, "prerequisites": [] },
+    { "id": "c15", "name": "Command table (dispatch)", "complexity": 3, "prerequisites": ["c14"] },
+    { "id": "c16", "name": "Smooth movement toward a target", "complexity": 3, "prerequisites": [] }
+  ],
+  "milestone": "Typing open, close or point in the Serial Monitor makes the hand move smoothly to that pose.",
+  "docs": [
+    { "title": "Arduino String reference", "url": "https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/" },
+    { "title": "Arduino millis()", "url": "https://www.arduino.cc/reference/en/language/functions/time/millis/" }
+  ]
+}

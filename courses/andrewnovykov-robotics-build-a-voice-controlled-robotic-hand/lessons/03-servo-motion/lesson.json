@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "03-servo-motion",
+  "title": "Servo Motion: Pulses, Power and Angles",
+  "summary": "Learn how a pulse sets a servo's angle, why servos need their own 5 V supply with a shared ground, and sweep one servo with the ESP32Servo library.",
+  "minutes": 60,
+  "difficulty": "beginner",
+  "prerequisites": ["01-meet-the-circuit", "02-first-code"],
+  "concepts": [
+    { "id": "c08", "name": "PWM: pulse width sets the angle", "complexity": 2, "prerequisites": [] },
+    { "id": "c09", "name": "Servo power and common ground", "complexity": 3, "prerequisites": ["c08"] },
+    { "id": "c10", "name": "Controlling a servo angle with the ESP32Servo library", "complexity": 2, "prerequisites": ["c08", "c09"] }
+  ],
+  "milestone": "One servo, powered from a separate 5 V supply with a shared ground, sweeps safely between 10 and 170 degrees under your code.",
+  "docs": [
+    { "title": "ESP32Servo library", "url": "https://github.com/madhephaestus/ESP32Servo" },
+    { "title": "Arduino-ESP32 LEDC (PWM) API", "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/ledc.html" }
+  ]
+}

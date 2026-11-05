@@ -1,0 +1,20 @@
+{
+  "format": 1,
+  "id": "02-first-code",
+  "title": "Your First Code: Variables, Decisions, Functions and Serial",
+  "summary": "Learn the four building blocks of code and use them to make the board answer words you type.",
+  "minutes": 60,
+  "difficulty": "beginner",
+  "prerequisites": ["01-meet-the-circuit"],
+  "concepts": [
+    { "id": "c04", "name": "Variables and types", "complexity": 1, "prerequisites": [] },
+    { "id": "c05", "name": "Conditions: if and else", "complexity": 2, "prerequisites": ["c04"] },
+    { "id": "c06", "name": "Functions", "complexity": 2, "prerequisites": ["c05"] },
+    { "id": "c07", "name": "Serial input and output", "complexity": 2, "prerequisites": ["c04"] }
+  ],
+  "milestone": "A sketch that listens for typed words and answers by lighting the LED or replying on the Serial Monitor.",
+  "docs": [
+    { "title": "Arduino Serial reference", "url": "https://www.arduino.cc/reference/en/language/functions/communication/serial/" },
+    { "title": "Arduino language reference", "url": "https://www.arduino.cc/reference/en/" }
+  ]
+}

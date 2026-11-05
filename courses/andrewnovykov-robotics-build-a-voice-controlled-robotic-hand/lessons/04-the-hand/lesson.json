@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "04-the-hand",
+  "title": "The Hand: Fingers, Calibration and Gestures",
+  "summary": "Assemble the tendon-driven hand, find each finger's open and closed angle, and wrap them in open, close and point functions.",
+  "minutes": 60,
+  "difficulty": "beginner",
+  "prerequisites": ["02-first-code", "03-servo-motion"],
+  "concepts": [
+    { "id": "c11", "name": "Tendon-driven finger", "complexity": 2, "prerequisites": [] },
+    { "id": "c12", "name": "Calibration with arrays", "complexity": 3, "prerequisites": ["c11"] },
+    { "id": "c13", "name": "Gesture functions", "complexity": 2, "prerequisites": ["c12"] }
+  ],
+  "milestone": "The assembled hand opens, closes and points when your sketch calls openHand(), closeHand() and pointHand().",
+  "docs": [
+    { "title": "Arduino arrays reference", "url": "https://www.arduino.cc/reference/en/language/variables/data-types/array/" },
+    { "title": "ESP32Servo library", "url": "https://github.com/madhephaestus/ESP32Servo" }
+  ]
+}

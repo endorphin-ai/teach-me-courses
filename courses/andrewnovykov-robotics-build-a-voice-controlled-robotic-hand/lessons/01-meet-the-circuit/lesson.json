@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "01-meet-the-circuit",
+  "title": "Meet the Circuit and the ESP32",
+  "summary": "Learn what a circuit is, what the ESP32's pins do, and make an LED blink from your own sketch.",
+  "minutes": 60,
+  "difficulty": "beginner",
+  "prerequisites": [],
+  "concepts": [
+    { "id": "c01", "name": "Circuit: voltage, current and ground", "complexity": 1, "prerequisites": [] },
+    { "id": "c02", "name": "Microcontroller and GPIO pins", "complexity": 2, "prerequisites": ["c01"] },
+    { "id": "c03", "name": "Sketch workflow: write, compile, upload", "complexity": 2, "prerequisites": ["c02"] }
+  ],
+  "milestone": "Your own sketch blinks an LED on the ESP32, and you have ordered the hand and parts.",
+  "docs": [
+    { "title": "Arduino-ESP32 installation guide", "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html" },
+    { "title": "Arduino language reference", "url": "https://www.arduino.cc/reference/en/" }
+  ]
+}

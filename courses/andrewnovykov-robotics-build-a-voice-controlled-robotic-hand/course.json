@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "kind": "course",
+  "id": "robotics",
+  "title": "Robotics: Build a Voice-Controlled Robotic Hand",
+  "description": "From a blinking LED to a 3D-printed hand whose fingers move when you say open, close or point, driven by an ESP32.",
+  "language": "en",
+  "version": "1.0.0",
+  "teach": {
+    "source": { "type": "topic", "url": "", "repo": "" },
+    "level": "beginner",
+    "prerequisites": ["A Mac with a USB port", "An ESP32 development board and USB data cable", "No programming or electronics experience needed"],
+    "hours": 8,
+    "tags": ["robotics", "esp32", "servo", "arduino", "voice", "electronics"],
+    "track": "conceptual",
+    "goal": "Build a robotic hand controlled by an ESP32 that moves its fingers from voice commands.",
+    "project": {
+      "name": "Voice-controlled robotic hand",
+      "final_state": "A 3D-printed hand with five servo-driven fingers, powered from its own 5 V supply, with an I2S microphone on an ESP32. A trained keyword model hears open, close and point and moves the fingers smoothly, with a cooldown so it does not twitch, and typed commands as a backup."
+    }
+  },
+  "modules": [
+    { "id": "m1", "title": "Week 1: Electronics and code basics", "lessons": ["01-meet-the-circuit", "02-first-code"], "milestone": "Your sketch blinks an LED and answers typed words." },
+    { "id": "m2", "title": "Week 2: Servos and the hand", "lessons": ["03-servo-motion", "04-the-hand"], "milestone": "An assembled hand that opens, closes and points from code." },
+    { "id": "m3", "title": "Week 3: Commands and the microphone", "lessons": ["05-typed-commands", "06-microphone"], "milestone": "Typed words move the hand smoothly, and the microphone measures sound." },
+    { "id": "m4", "title": "Week 4: Voice control", "lessons": ["07-keyword-spotting", "08-voice-hand"], "milestone": "Saying open, close or point moves the hand." }
+  ],
+  "lessons": ["01-meet-the-circuit", "02-first-code", "03-servo-motion", "04-the-hand", "05-typed-commands", "06-microphone", "07-keyword-spotting", "08-voice-hand"]
+}

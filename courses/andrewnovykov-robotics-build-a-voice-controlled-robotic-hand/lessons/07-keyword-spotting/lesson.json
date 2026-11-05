@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "07-keyword-spotting",
+  "title": "Keyword Spotting: Teaching the Board Three Words",
+  "summary": "Record examples, train a small Edge Impulse model that recognises open, close and point, and read its confidence scores on the ESP32.",
+  "minutes": 60,
+  "difficulty": "beginner",
+  "prerequisites": ["06-microphone"],
+  "concepts": [
+    { "id": "c20", "name": "Classification: choosing a label for a sound", "complexity": 3, "prerequisites": [] },
+    { "id": "c21", "name": "Training data: labelled examples", "complexity": 3, "prerequisites": ["c20"] },
+    { "id": "c22", "name": "Confidence score", "complexity": 3, "prerequisites": ["c20"] }
+  ],
+  "milestone": "A trained model running on the ESP32 prints open, close, point, noise or unknown with a confidence for each.",
+  "docs": [
+    { "title": "Edge Impulse documentation", "url": "https://docs.edgeimpulse.com/" },
+    { "title": "Arduino-ESP32 I2S API", "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/i2s.html" }
+  ]
+}

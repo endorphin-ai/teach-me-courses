@@ -1,0 +1,10 @@
+name: "Robotics: Build a Voice-Controlled Robotic Hand"
+summary: "From a blinking LED to a 3D-printed hand whose fingers move when you say open, close or point, driven by an ESP32."
+author: "andrewnovykov"
+shared: 2026-11-04
+from: Teach Me 0.1.0
+license: MIT
+level: beginner
+hours: 8.00
+tags: ["robotics", "esp32", "servo", "arduino", "voice", "electronics"]
+lessons: 8
