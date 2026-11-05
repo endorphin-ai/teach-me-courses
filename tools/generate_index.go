@@ -65,7 +65,7 @@ func parseCourseYAML(b []byte) HubCourseYAML {
 			val = strings.Trim(val, "[]")
 			rawTags := strings.Split(val, ",")
 			for _, t := range rawTags {
-				t = strings.TrimSpace(strings.Trim(t, `"'`))
+				t = strings.Trim(strings.TrimSpace(t), `"'`)
 				if t != "" {
 					cy.Tags = append(cy.Tags, t)
 				}

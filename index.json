@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "generated": "2026-11-05T01:58:11Z",
+  "generated": "2026-11-05T02:11:59Z",
   "courses": [
     {
       "folder": "andrewnovykov-robotics-build-a-voice-controlled-robotic-hand",
@@ -13,11 +13,11 @@
       "hours": 8,
       "tags": [
         "robotics",
-        "\"esp32",
-        "\"servo",
-        "\"arduino",
-        "\"voice",
-        "\"electronics"
+        "esp32",
+        "servo",
+        "arduino",
+        "voice",
+        "electronics"
       ],
       "lessons": 8
     }

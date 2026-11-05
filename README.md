@@ -5,7 +5,7 @@
 <h1 align="center">Teach Me courses</h1>
 
 <p align="center">
-  A shared library of courses for <a href="https://github.com/endorphin-ai/TEACH-ME">Teach Me</a><br>
+  A shared library of courses for <a href="https://teach-me.software/">Teach Me</a><br>
   by <a href="https://hasbrains.com/">Has Brains AI</a>
 </p>
 
@@ -19,7 +19,11 @@ A useful course should be easy to reuse, inspect, and improve. Keeping the catal
 
 ## Find a course
 
-Open **Course hub → Browse** in Teach Me. Pick a course, read its details, and install it into your library. You can also inspect the folders in [`courses/`](courses/) before installing. The catalog starts empty and grows as course pull requests are reviewed and merged.
+Open **Course hub → Browse** in Teach Me. Pick a course, read its details, and install it into your library. You can also inspect the folders in [`courses/`](courses/) before installing. The catalog grows as course pull requests are reviewed and merged.
+
+### Now in the hub
+
+**[Robotics: Build a Voice-Controlled Robotic Hand](courses/andrewnovykov-robotics-build-a-voice-controlled-robotic-hand/)** by @andrewnovykov · Beginner · 8 lessons · about 8 hours. Start with an LED and an ESP32, then build toward a hand controlled by spoken commands.
 
 Your first course works without a key. To unlock additional courses, [get a free Teach Me key](https://keys.endorphinlab.dev/apps/teach-me) and enter it in **Settings → License**.
 
@@ -57,6 +61,7 @@ The app does not share learner progress, local settings in `.teachme/`, exports,
 
 ## Links
 
+- [Teach Me website](https://teach-me.software/)
 - [Teach Me](https://github.com/endorphin-ai/TEACH-ME)
 - [Get a free key](https://keys.endorphinlab.dev/apps/teach-me)
 - [Has Brains AI](https://hasbrains.com/)
