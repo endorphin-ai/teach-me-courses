@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "08-voice-hand",
+  "title": "The Voice-Controlled Hand",
+  "summary": "Join the keyword model, the command table and the servo hand, add a confidence gate and cooldown, then test and tune the finished robot.",
+  "minutes": 60,
+  "difficulty": "beginner",
+  "prerequisites": ["04-the-hand", "05-typed-commands", "06-microphone", "07-keyword-spotting"],
+  "concepts": [
+    { "id": "c23", "name": "Listen, decide, act pipeline", "complexity": 3, "prerequisites": [] },
+    { "id": "c24", "name": "Cooldown and debouncing", "complexity": 3, "prerequisites": ["c23"] },
+    { "id": "c25", "name": "Testing and tuning", "complexity": 3, "prerequisites": ["c23", "c24"] }
+  ],
+  "milestone": "Say open, close or point and the hand moves smoothly, and it ignores noise and chatter. The course goal is reached.",
+  "docs": [
+    { "title": "Edge Impulse documentation", "url": "https://docs.edgeimpulse.com/" },
+    { "title": "ESP32 FreeRTOS tasks (Arduino-ESP32)", "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/tutorials/cores_config.html" }
+  ]
+}

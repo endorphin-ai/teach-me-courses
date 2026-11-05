@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "06-microphone",
+  "title": "The Microphone: Sound as Numbers",
+  "summary": "Wire an I2S microphone, read its samples, measure loudness and make a clap move a finger.",
+  "minutes": 60,
+  "difficulty": "beginner",
+  "prerequisites": ["02-first-code", "03-servo-motion", "05-typed-commands"],
+  "concepts": [
+    { "id": "c17", "name": "Sound as a stream of numbers (sampling)", "complexity": 2, "prerequisites": [] },
+    { "id": "c18", "name": "I2S digital microphone", "complexity": 3, "prerequisites": ["c17"] },
+    { "id": "c19", "name": "Loudness and threshold", "complexity": 3, "prerequisites": ["c17", "c18"] }
+  ],
+  "milestone": "A live loudness readout on the Serial Monitor, and a clap that makes the hand change pose.",
+  "docs": [
+    { "title": "Arduino-ESP32 I2S API", "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/i2s.html" },
+    { "title": "INMP441 datasheet (TDK InvenSense)", "url": "https://invensense.tdk.com/products/digital/inmp441/" }
+  ]
+}

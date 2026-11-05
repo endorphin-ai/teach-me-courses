@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "lesson": "05-typed-commands",
+  "questions": [
+    { "id": "q1", "concept": "c14", "type": "explain", "question": "Why do we trim and lower-case a typed line before comparing it to 'point'?", "answer": "Typed text can have spaces, a carriage return or capitals. Cleaning it makes 'Point ' match 'point'.", "rubric": ["Hidden characters / spaces", "Capitals", "So the match works"], "hint": "Computers compare every character exactly." },
+    { "id": "q2", "concept": "c14", "type": "predict", "question": "What does the sketch do when you press Enter on an empty line?", "answer": "Nothing; an empty line is skipped before looking for a command.", "rubric": ["Ignored"], "hint": "Check the early return." },
+    { "id": "q3", "concept": "c15", "type": "explain", "question": "What is a command table and why is it better than a long chain of if / else if?", "answer": "A list pairing each command word with the function to run. Adding a word is one new row, and the same lookup works for typed and (later) voice commands.", "rubric": ["Word paired with function", "Add one row", "Reused later"], "hint": "One lookup loop instead of many ifs." },
+    { "id": "q4", "concept": "c15", "type": "apply", "question": "Add a 'peace' command to the table, given a function peaceHand(). What single row do you add?", "answer": "{\"peace\", peaceHand}, in the COMMANDS array (no parentheses after the function name).", "rubric": ["New row with word and function", "No parentheses"], "hint": "The name without () means 'this recipe card'." },
+    { "id": "q5", "concept": "c16", "type": "explain", "question": "Why does the hand use a current angle, a target angle and a small step instead of writing the target directly?", "answer": "Moving a little each tick gives a smooth, gentle motion, avoids a power spike from five servos jumping at once, and puts less strain on the lines.", "rubric": ["Small steps", "Less power spike/strain", "Smooth"], "hint": "Think of the 3 A surprise." },
+    { "id": "q6", "concept": "c16", "type": "predict", "question": "With STEP_DEG = 2 and STEP_MS = 15, roughly how long does a 120 degree move take?", "answer": "About 60 steps x 15 ms = 0.9 seconds.", "rubric": ["60 steps", "About 0.9 s"], "hint": "Divide the distance by the step." },
+    { "id": "q7", "concept": "c16", "type": "debug", "question": "Using delay(2000) inside loop() to wait made the hand ignore a typed word. Why, and what did we use instead?", "answer": "delay() freezes the whole program so nothing is read or moved; we compare millis() with the last step time instead.", "rubric": ["delay blocks", "millis timing"], "hint": "The board can do only one thing while sleeping." }
+  ]
+}

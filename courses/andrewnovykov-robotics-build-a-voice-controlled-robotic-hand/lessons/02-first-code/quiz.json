@@ -1,0 +1,14 @@
+{
+  "format": 1,
+  "lesson": "02-first-code",
+  "questions": [
+    { "id": "q1", "concept": "c04", "type": "recall", "question": "What is a variable, and what do int and bool store?", "answer": "A named box that holds a value. int holds whole numbers; bool holds true or false.", "rubric": ["Named storage", "int whole numbers", "bool true/false"], "hint": "Think of a labelled box." },
+    { "id": "q2", "concept": "c04", "type": "predict", "question": "After int angle = 90; angle = angle + 30; what does angle hold?", "answer": "120", "rubric": ["120"], "hint": "The right side is worked out first." },
+    { "id": "q3", "concept": "c05", "type": "explain", "question": "What is the difference between = and == in if (x == 5)?", "answer": "= stores a value into a variable; == compares two values and gives true or false. An if needs a comparison.", "rubric": ["= assigns", "== compares"], "hint": "One puts, one asks." },
+    { "id": "q4", "concept": "c06", "type": "explain", "question": "Why put the code that closes a finger into a function instead of copying it where it is needed?", "answer": "Write once, reuse by name, and fix in one place; it also makes the main code read like a sentence.", "rubric": ["Reuse", "One place to fix", "Readability"], "hint": "Think of a recipe card." },
+    { "id": "q5", "concept": "c07", "type": "recall", "question": "What does Serial.begin(115200) do and what must the Serial Monitor match?", "answer": "It starts serial communication at 115200 bits per second; the Serial Monitor baud setting must be the same number.", "rubric": ["Starts serial", "Baud must match"], "hint": "Both ends must speak at the same speed." },
+    { "id": "q6", "concept": "c07", "type": "debug", "question": "The Serial Monitor shows garbled characters like ?x?? . What is the most likely cause?", "answer": "The monitor baud rate does not match the number in Serial.begin.", "rubric": ["Baud mismatch"], "hint": "Look at the drop-down in the Serial Monitor." },
+    { "id": "q7", "concept": "c05", "type": "apply", "question": "Write the if/else that prints 'loud' when level is above 500 and 'quiet' otherwise.", "answer": "if (level > 500) { Serial.println(\"loud\"); } else { Serial.println(\"quiet\"); }", "rubric": ["Uses >", "Has else", "Prints both"], "hint": "Two branches." },
+    { "id": "q8", "concept": "c06", "type": "teach-back", "question": "Explain to a friend what setup() and loop() are, using the idea of a function.", "answer": "They are two special functions the board calls itself: setup() once at power-on, loop() over and over.", "rubric": ["setup once", "loop repeats", "They are functions"], "hint": "You never call them yourself." }
+  ]
+}
